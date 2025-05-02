@@ -1,0 +1,44 @@
+.boxstyle {
+    align-items: flex-start;
+    background-color: rgba(252, 252, 255);
+    border: 1px solid rgba(6, 7, 9, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.04), 0 4px 12px 0 rgba(0, 0, 0, 0.02);
+    width: 166px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.input {
+  background-color: rgba(231, 239, 241, 0.975);
+  border-radius: 5px;
+  padding: 0 8px;
+  font-size: 10px;
+}
+.margin-top {
+  margin-top: 10px;
+}
+
+.avatar {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.width-name {
+  width:100px;
+}
+.width-input {
+  width: 190px;
+}
+.width-type {
+  width: 90px;
+}
+.width-required {
+  width: 30px;
+  text-align: center;
+}
+
+.ant-drawer-content-wrapper {
+  width: 450px !important;
+}

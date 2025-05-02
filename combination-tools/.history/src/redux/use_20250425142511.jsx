@@ -1,0 +1,9 @@
+import {
+    increment
+  } from "./redux/reducer";
+  import { store } from './redux/store.ts';
+  import { Provider, useDispatch, useSelector } from 'react-redux';
+  
+  const count = useSelector((state: any) => state.counter.value);
+  const dispatch = useDispatch();
+  <Provider store={store}></Provider>
